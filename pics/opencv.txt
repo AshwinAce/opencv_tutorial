@@ -1,0 +1,9 @@
+tomato.jpg: https://www.gettyimages.com/detail/photo/fresh-tomatoes-royalty-free-image/87765810
+tomato1.jpg: https://www.flickr.com/photos/36008503@N03/3875245604
+tomato2.jpg: https://thumbs.dreamstime.com/m/fresh-vegetables-28099952.jpg
+gaussian.jpg: https://upload.wikimedia.org/wikipedia/commons/d/d2/512x512-Gaussian-Noise.jpg
+histeq.jpg: https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Unequalized_Hawkes_Bay_NZ.jpg/300px-Unequalized_Hawkes_Bay_NZ.jpg
+octagon.jpg: https://www.iconsdb.com/royal-blue-icons/octagon-icon.html
+spnoise.jpg(Original): https://www.topnews.in/files/Pepper_02.jpg
+sudoku.jpg: https://docs.opencv.org/trunk/ada_threshold.jpg
+Other images do not show up in the image search right now or were created by me. 

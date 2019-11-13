@@ -1,0 +1,22 @@
+Opencv vs Matlab:
+http://stackoverflow.com/questions/8828860/why-is-matlab-so-popular-in-the-computer-vision-community-even-with-opencv-being?noredirect=1&lq=1
+Matlab: Easy to code, 
+good documentation 
+readymade functions, 
+best for prototyping, 
+costly, most research papers have used it.
+No need to allocate memory. No compile, easy to find crash location.
+Command line.
+http://stackoverflow.com/questions/3953204/matlab-vs-aforge-vs-opencv?rq=1
+https://www.learnopencv.com/opencv-c-vs-python-vs-matlab-for-computer-vision/
+https://www.quora.com/Which-is-better-for-more-efficient-and-quicker-Image-Processing-MATLAB-OpenCV-or-Octave
+http://aishack.in/tutorials/opencv/
+Opencv is written in c++.Matlab is written in Java(ui) and many others.
+Speed: for real time processing
+Cheap.
+Needs less memort for running.
+
+Number plate recog: https://www.youtube.com/watch?v=nmDiZGx5mqU
+Getting number of cars: https://www.youtube.com/watch?v=z1Cvn3_4yGo
+ background subtraction and frame difference method
+https://www.youtube.com/watch?v=bSeFrPrqZ2A
