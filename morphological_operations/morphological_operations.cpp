@@ -1,3 +1,13 @@
+/*******Morphological operations ****
+This code is an introduction to morphological operations.
+The major morphological operations are erosion,dilation, opening and closing.
+Erosion assigns the minimum value found in the neighbourhood of all pixels, where the neighbourhood is the set of pixels defined by a structuring element.
+For example, if the structuring element is a square of size 3, each pixel after one erosion is assigned the lowest among its immediate neighbours.
+Dilation is similar,except that it assigns the maximum value.
+Opening is  erosion followed by dilation while closing is dilation followed by erosion.
+
+This code also introduces trackbars, which can be used to adjust the values of parameters. In this case, the variable parameters are kernel size, type of kernel, the operation and the number of iterations.
+******/
 #include<iostream>
 #include<vector>
 #include<opencv2/opencv.hpp>

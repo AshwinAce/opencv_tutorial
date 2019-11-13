@@ -1,3 +1,12 @@
+/****
+This code demonstrates the usage of various filters on images.
+If an image has noise of a Gaussian distribution, a gaussian filter is the best remedy.
+If an image has its edges vanishing after application of a Gaussian filter, a bilateral filter that smoothens the original image, while preserving edges is the best option.
+Likewise, if the added noise follows a salt and pepper distribution, a median filter is the best technique.
+Blur is used for averaging over its corresponding region.
+
+In addition, to these filters, the inRange function that filters based on image intensities is also shown.
+******/
 #include<iostream>
 #include<opencv2/opencv.hpp>
 #include<opencv2/core/core.hpp>

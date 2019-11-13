@@ -1,3 +1,12 @@
+/***** Histogram equalization *****
+This code equalizes the histogram of an image.
+Histogram equalization is done when constrast adjustment is needed.
+It also serves as an introduction to the BGR and HSV color spaces.
+BGR color space has intensities from 0 to 255 for the blue, green and red; all colors are a combination of these three with [0,0,0] being black and [255,255,255] being white.
+HSV color space stands for Hue, Saturation and Value. It is closer to the way humans perceive vision, although a bit harder to interpret than BGR.
+One can see that histogram equalization works better visually, when it is applied on the Value channel of an image as opposed to doing it individually on the BGR channels.
+THis is seen when this program is run on the tomato images ot the house image, where BGR equalization results in an unnatural bluish tinge.
+*****/
 #include<iostream>
 #include<vector>
 #include<opencv2/opencv.hpp>

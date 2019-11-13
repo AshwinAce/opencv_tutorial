@@ -1,3 +1,8 @@
+/*****Tomato segmentation *****
+This code tries to segment individual tomatoes from each image.
+It initially uses intensity-based methods followed by morphological operations to segment tomatoes and then uses the Hough Transform to get each tomato.
+This works well for some of the test images, but is not perfect for all cases.
+*****/  
 #include "opencv2/calib3d/calib3d.hpp"
 #include "opencv2/imgproc/imgproc.hpp"
 #include "opencv2/imgcodecs.hpp"

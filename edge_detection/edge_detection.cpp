@@ -1,3 +1,6 @@
+/*****Edge detection*****
+This code has filters used in edge detection such as Sobel, Scharr, Canny and Laplacian
+******/
 #include<iostream>
 #include<opencv2/opencv.hpp>
 #include<opencv2/core/core.hpp>

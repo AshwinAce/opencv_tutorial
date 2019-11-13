@@ -1,3 +1,7 @@
+/******Thresholding******
+This code shows some basic thresholding operations.
+It also introduces the concept of adaptive thresholding where thresholding is applied locally instead of globally.
+*******/
 #include<iostream>
 #include<opencv2/opencv.hpp>
 #include<opencv2/core/core.hpp>

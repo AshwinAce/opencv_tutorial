@@ -1,3 +1,7 @@
+/***** Image operations ******
+This code is primarily for knowing how to access pixel values and modify them.
+It also includes the fillPoly function that can be used fir drawing shapes
+******/
 #include "opencv2/calib3d/calib3d.hpp"
 #include "opencv2/imgproc/imgproc.hpp"
 #include "opencv2/imgcodecs.hpp"
@@ -32,7 +36,7 @@ int main() {
 	pt[0][2] = c;
 	const cv::Point* ppt[3] = { pt[0] };
 	int npt[] = { 3 };
-	//in this fills a triangle, but can be extended to bigger figures
+	//in this case, fillPoly fills a triangle, but can be extended to bigger figures
 	cv::fillPoly(img, ppt, npt, 1, cv::Scalar(255, 255, 255), 1);
 	//section to calculate slopes of lines, not used elsewhere; to show Point manipulation
 	float m1,m2,m3,c1,c2,c3;
