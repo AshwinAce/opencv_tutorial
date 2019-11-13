@@ -9,7 +9,7 @@ void histeq(cv::Mat &img1, cv::Mat& img2);
 int main(int argc,char **argv) {
 	cv::Mat img, gray, hsv;
 	if(argc==1){
-		img = cv::imread("/home/pyimagesearch/opencv_tutorial/pics/tomato.jpg");
+		img = cv::imread("/home/username/opencv_tutorial/pics/tomato.jpg");
 	}
 	else{
 		try{
