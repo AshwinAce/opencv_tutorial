@@ -1,6 +1,7 @@
 # opencv_tutorial
 A repository that containes basic image processing functions in C++.
 With very few exceptions, most of these functions take an image as a single command line argument.
+This repository assumes that one knows Basic OpenCV functions such as imread, imshow, waitKey etc.
 
 Blurring is about basic filters used for noise reduction. Gaussian and spnoise are ideal images to work with here.
 
